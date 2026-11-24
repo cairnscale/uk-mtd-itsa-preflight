@@ -1,0 +1,34 @@
+{
+  "name": "@cairnscale/uk-mtd-itsa-preflight",
+  "version": "1.0.0",
+  "description": "Zero-dependency exact pence UK Making Tax Digital for Income Tax (MTD ITSA) threshold, tax quarter boundary, and CIS gross turnover checker.",
+  "type": "module",
+  "main": "./index.mjs",
+  "bin": {
+    "uk-mtd-itsa-preflight": "./index.mjs"
+  },
+  "scripts": {
+    "test": "node --test test.mjs"
+  },
+  "keywords": [
+    "mtd-itsa",
+    "making-tax-digital",
+    "hmrc",
+    "uk-tax",
+    "self-assessment",
+    "cis",
+    "xero",
+    "freeagent",
+    "accounting"
+  ],
+  "homepage": "https://cairnscale.uk/tools/mtd-itsa-preflight/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cairnscale/uk-mtd-itsa-preflight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cairnscale/uk-mtd-itsa-preflight/issues"
+  },
+  "author": "cairnscale <hello@cairnscale.uk>",
+  "license": "MIT"
+}
